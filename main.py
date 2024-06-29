@@ -1,9 +1,12 @@
 def main():
     numbers = []
-    previous = 10000
+    # previous = 10000
 
+    i = 0
     while True:
         current = int(input('Enter Value: '))
+        if i == 0:
+            previous = current
         if current < previous:
             numbers.append(current)
             previous = current
