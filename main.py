@@ -6,7 +6,7 @@ def main():
     while True:
         current = int(input('Enter Value: '))
         if i == 0:
-            previous = current
+            previous = current + 1
         i += 1
         if current < previous:
             numbers.append(current)
